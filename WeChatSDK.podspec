@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.source_files = 'WeChatSDK/*.{h,m}'
   s.vendored_libraries  = 'WeChatSDK/libWeChatSDK.a'
   s.frameworks = "CoreTelephony", "SystemConfiguration"
-  s.libraries = "libz", "libsqlite3.0"
+  s.libraries = "z", "sqlite3.0"
 end
